@@ -4,18 +4,18 @@ const Info = () => {
   return (
     <div className="about__info grid">
       <div className="about__box">
-        <h3 className="about__title">Experience</h3>
-        <span className="about__subtitle">I have four years of software development experience and have been working as DevOps Engineer since 2022.</span>
+        <h3 className="about__title">Education</h3>
+        <h3 className="about__title">Grand Valley State University</h3>
       </div>
 
       <div className="about__box">
-        <h3 className="about__title">Specialties</h3>
-        <span className="about__subtitle">Experienced in Ansible, Python, Kubernetes, and cloud technologies such as Microsoft Azure and Google Cloud Platform.</span>
+        <h3 className="about__title">Location</h3>
+        <h3 className="about__title">Grand Rapids, MI</h3>
       </div>
 
       <div className="about__box">
-        <h3 className="about__title">Misc. Skills</h3>
-        <span className="about__subtitle">Terraform, Grafana Monitoring, Docker, Jenkins, Microsoft SQL Server, Terraform, Git and GitLab, Azure DevOps.</span>
+        <h3 className="about__title">Hobbies</h3>
+        <h3 className="about__title">Golfing, Traveling, Reading</h3>
       </div>
     </div>
   )

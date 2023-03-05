@@ -5,8 +5,8 @@ const Data = () => {
     <div className="home__data">
         <h1 className="home__title">Tristan Klinski</h1>
 
-        <h3 className="home__subtitle">Software Engineer</h3>
-        <p className="home__description">I'm a software engineer, devops advocate, and cloud architect currently based in Grand Rapids. I'm passionate about my work, my travels, and my cats.</p>
+        <h3 className="home__subtitle">"TK The Dev"</h3>
+        <p className="home__description">I'm a software engineer, devops advocate, and cloud architect.</p>
 
         <a href="#contact" className="button button--flex">
             Reach Out!

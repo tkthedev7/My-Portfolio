@@ -1,6 +1,9 @@
 import React from 'react'
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
+import WillowImg from "../../assets/willow.jpg";
+import CashewImg from "../../assets/cashew.jpg";
+import WillowAndCashewImg from "../../assets/willow-and-cashew.jpg";
 import Resume from "../../assets/Klinski-Resume.pdf";
 import Info from './Info';
 
@@ -17,9 +20,14 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                    I'm currently a DevOps engineer specializing in Microsoft Azure, Kubernetes, and Ansible automation. I have several years of experience
-                    with production-level systems for different companies. I also have several cloud certifications for both Microsoft and Google.
+                I'm currently a DevOps engineer specializing in Microsoft Azure, Kubernetes, and Ansible automation. I have several years of experience
+                with production-level systems for different companies. I have several cloud certifications from Microsoft and Google. I'm passionate about my work,
+                invested in my learning, and always trying to experience growth. I also have two cats - Willow and Cashew.
                 </p>
+
+
+
+
 
                 <a download="" href={Resume} className="button button--flex">Download My Resume
                 <svg
@@ -49,8 +57,10 @@ const About = () => {
               </svg>
                 </a>
             </div>
-
         </div>
+          <img src={WillowImg} alt="My cat Willow" className="about__img" />
+          <img src={CashewImg} alt="My cat Cashew" className="about__img" />
+          <img src={WillowAndCashewImg} alt="My cats Willow and Cashew together" className="about__img" />
     </section>
   )
 }
