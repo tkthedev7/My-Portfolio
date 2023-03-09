@@ -1,9 +1,9 @@
 import React from 'react'
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
-import WillowImg from "../../assets/willow.jpg";
-import CashewImg from "../../assets/cashew.jpg";
-import WillowAndCashewImg from "../../assets/willow-and-cashew.jpg";
+import EuropeImage from "../../assets/europe-photo.jpg";
+import WillowImage from "../../assets/willow.jpg";
+import CashewImage from "../../assets/cashew.jpg";
+import WillowAndCashewImage from "../../assets/willow-and-cashew.jpg";
 import Resume from "../../assets/Klinski-Resume.pdf";
 import Info from './Info';
 
@@ -14,7 +14,7 @@ const About = () => {
         <span className="section__subtitle">My introduction</span>
 
         <div className="about__container container grid">
-            <img src={AboutImg} alt="" className="about__img" />
+            <img src={EuropeImage} alt="" className="about__img" />
 
             <div className="about__data">
                 <Info />
@@ -33,7 +33,7 @@ const About = () => {
                 <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
-                width="24"
+                width="36"
                 height="24"
                 viewBox="0 0 24 24"
                 fill="none"
@@ -58,9 +58,17 @@ const About = () => {
                 </a>
             </div>
         </div>
-          <img src={WillowImg} alt="My cat Willow" className="about__img" />
-          <img src={CashewImg} alt="My cat Cashew" className="about__img" />
-          <img src={WillowAndCashewImg} alt="My cats Willow and Cashew together" className="about__img" />
+        
+        <div className="cat_photos__container">
+
+          <img src={WillowImage} alt="My cat Willow" className="cat__img no_mobile"/>
+
+          <img src={WillowAndCashewImage} alt="My cats Willow and Cashew together" className="cat__img mobile" />
+          
+          <img src={CashewImage} alt="My cat Cashew" className="cat__img no_mobile" />
+
+        </div>
+
     </section>
   )
 }
