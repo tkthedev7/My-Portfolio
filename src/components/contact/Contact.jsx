@@ -14,10 +14,9 @@ const Contact = () => {
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Contact</h2>
-        <span className="section__subtitle">Say Hi!</span>
             <div className="contact__container container grid">
                 <div className="contact_content">
-                <h3 className="contact__title">Feel free to reach out</h3>
+                <h3 className="contact__title">Say Hi!</h3>
 
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
                     <div className="contact__form-div">
@@ -52,7 +51,7 @@ const Contact = () => {
                     </div>
 
                     <button className="button button--flex">
-                        Send Message
+                        Send Email
                         <svg
                             class="button__icon"
                             xmlns="http://www.w3.org/2000/svg"
