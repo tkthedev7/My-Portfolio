@@ -20,9 +20,19 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                I'm currently a DevOps engineer specializing in Microsoft Azure, Kubernetes, and Ansible automation. I have several years of experience
-                with production-level systems for different companies. I have several cloud certifications from Microsoft and Google. I'm passionate about my work,
-                invested in my learning, and always trying to experience growth. I also have two cats - Willow and Cashew.
+                I'm currently a DevOps engineer specializing in Microsoft Azure, Kubernetes, and Ansible automation.
+                </p>
+
+                <p className="about__description">
+                I have several years of experience with production systems for different organizations. I have several cloud certifications from Microsoft and Google.
+                </p>
+
+                <p className="about__description">
+                I'm passionate about my work, invested in my learning, and always trying to experience growth.
+                </p>
+
+                <p className="about__description">
+                Most importantly I have two cats - Willow and Cashew.
                 </p>
 
                 <a download="" href={Resume} className="button button--flex">Download My Resume
