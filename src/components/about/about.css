@@ -91,7 +91,8 @@
   /* Medium Screens */  
   @media screen and (max-width: 576px) { 
     .about__info {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
     }
 
     .about__description {
@@ -107,12 +108,16 @@
     .no_mobile {
         display: none;
     }
+
+    .about__info {
+        justify-items: center;
+    }
   } 
   
   /* Small Screens */ 
   @media screen and (max-width: 350px) { 
     .about__info {
-        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 
     .cat_photos__container {

@@ -24,10 +24,6 @@ const About = () => {
                 invested in my learning, and always trying to experience growth. I also have two cats - Willow and Cashew.
                 </p>
 
-
-
-
-
                 <a download="" href={Resume} className="button button--flex">Download My Resume
                 <svg
                 class="button__icon"

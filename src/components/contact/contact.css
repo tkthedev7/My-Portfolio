@@ -133,7 +133,8 @@
         margin: 0 auto;
     }
   } 
-  
+
+  /* Small Screens */ 
   @media screen and (max-width: 576px) { 
     .contact__info {
         grid-template: 1fr;

@@ -28,8 +28,6 @@ const Contact = () => {
                         <h3 className="contact__card-title">Discord</h3>
 
                         <span className="contact__card-data">tk#9892</span>
-
-                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
@@ -38,8 +36,6 @@ const Contact = () => {
                         <h3 className="contact__card-title">Telegram</h3>
 
                         <span className="contact__card-data">tklinski</span>
-
-                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
 
                     <div className="contact__card">
@@ -48,8 +44,6 @@ const Contact = () => {
                         <h3 className="contact__card-title">Messenger</h3>
 
                         <span className="contact__card-data">Tristan J. Klinski</span>
-
-                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
                 </div>
             </div>
