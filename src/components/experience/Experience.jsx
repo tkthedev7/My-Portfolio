@@ -61,7 +61,7 @@ const Qualification = () => {
                     <div className="qualification__data">
                             <div>
                                 <h3 className="qualification__title">Grand Valley State University</h3>
-                                <span className="qualification__subtitle">Information Systems</span>
+                                <span className="qualification__subtitle">Information Systems, B.S.</span>
                                 <div className="qualification__calendar"><i className="uil uil-calendar-alt"></i>Aug. 2016 - Apr. 2020</div>
                             </div>
                             <div>
