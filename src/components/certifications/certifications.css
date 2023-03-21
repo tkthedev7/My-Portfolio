@@ -11,7 +11,8 @@
 }
 
 .certification__img {
-    width: 60px;
+    width: 80px;
+    height: 60px;
     border-radius: 3rem;
     margin-bottom: var(--mb-1);
 }
@@ -45,18 +46,4 @@
     .certification__card {
         padding: 1.25rem 1.5rem;
     }
-  } 
-  
-  /* Medium Screens */ 
-  @media screen and (max-width: 768px) { 
-
-  } 
-  
-  @media screen and (max-width: 576px) { 
-
-  } 
-  
-  /* Small Screens */ 
-  @media screen and (max-width: 350px) { 
-
-  }
+} 

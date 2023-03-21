@@ -16,6 +16,7 @@ const Certifications = () => {
   return (
     <section className="certifications container section" id="certifications">
         <h2 className="section__title">Certifications</h2>
+        <span className="section__subtitle">My professional credentials</span>
 
         <Swiper className="certifications__container"
             loop={true}
