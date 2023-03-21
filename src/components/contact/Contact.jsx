@@ -1,53 +1,73 @@
-import React, {useRef} from 'react';
-import emailjs from '@emailjs/browser';
+import React from 'react';
 import "./contact.css";
 
 const Contact = () => {
-    const form = useRef();
-
-    const sendEmail = (e) => {
-        e.preventDefault();
-        emailjs.sendForm('service_0afiwht', 'template_p58021f', form.current, '4DUSvwMcJSVDtLBpm')
-        e.target.reset();
-    };
-  
   return (
     <section className="contact section" id="contact">
         <h2 className="section__title">Contact</h2>
-            <div className="contact__container container grid">
-                <div className="contact_content">
-                <h3 className="contact__title">Say Hi!</h3>
+        <span className="section__subtitle">Get in touch</span>
 
-                <form ref={form} onSubmit={sendEmail} className="contact__form">
+        <div className="contact__container container grid">
+            <div className="contact__content">
+                <h3 className="contact__title">Message me Directly</h3>
+
+                <div className="contact__info">
+                    <div className="contact__card">
+                        <i className="bx bxl-discord-alt contact__card-icon"></i>
+
+                        <h3 className="contact__card-title">Discord</h3>
+
+                        <span className="contact__card-data">tk#9892</span>
+
+                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                    </div>
+
+                    <div className="contact__card">
+                        <i className="bx bxl-telegram contact__card-icon"></i>
+
+                        <h3 className="contact__card-title">Telegram</h3>
+
+                        <span className="contact__card-data">tklinski</span>
+
+                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                    </div>
+
+                    <div className="contact__card">
+                        <i className="bx bxl-messenger contact__card-icon"></i>
+
+                        <h3 className="contact__card-title">Messenger</h3>
+
+                        <span className="contact__card-data">Tristan J. Klinski</span>
+
+                        <a href="" className="contact__button">Write me <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="contact__content">
+                <h3 className="contact__title">Send an Email</h3>
+
+                <form className="contact__form">
                     <div className="contact__form-div">
-                    <label className="contact__form-tag">Name</label>
-                    <input
-                        type="text"
-                        name="name"
+                        <label className="contact__form-tag">Name</label>
+                        <input type="text" name="name" 
                         className="contact__form-input"
-                        placeholder="Insert your name"
-                    />
+                        placeholder="Your Name"  
+                        />
                     </div>
 
                     <div className="contact__form-div">
-                    <label className="contact__form-tag">Email</label>
-                    <input
-                        type="email"
-                        name="email"
+                        <label className="contact__form-tag">Email</label>
+                        <input type="email" name="email" 
                         className="contact__form-input"
-                        placeholder="Insert your email"
-                    />
+                        placeholder="Your Email"  
+                        />
                     </div>
 
                     <div className="contact__form-div contact__form-area">
-                    <label className="contact__form-tag">Message</label>
-                    <textarea
-                        type="message"
-                        cols="30"
-                        rows="10"
-                        className="contact__form-input"
-                        placeholder="Insert your message"
-                    ></textarea>
+                        <label className="contact__form-tag">Message</label>
+                        <textarea name="message" cols="30" rows="10"
+                        className="contact__form-input" placeholder="Your Message"></textarea>
                     </div>
 
                     <button className="button button--flex">
@@ -71,7 +91,7 @@ const Contact = () => {
                             </svg>
                     </button>
                 </form>
-                </div>    
+            </div>
         </div>
     </section>
   )
