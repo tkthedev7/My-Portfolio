@@ -121,7 +121,7 @@
   /* Medium Screens */ 
   @media screen and (max-width: 768px) { 
     .contact__container {
-        grid-template: 1fr;
+        grid-template-columns: 1fr;
         row-gap: 3rem;
     }
 
@@ -142,9 +142,4 @@
     .contact__form {
         width: 100%;
     }
-  } 
-  
-  /* Small Screens */ 
-  @media screen and (max-width: 350px) { 
-
-  }
+} 
