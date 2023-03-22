@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.961074c8.css",
-    "main.js": "/My-Portfolio/static/js/main.a8bde267.js",
-    "static/js/787.128fc6e9.chunk.js": "/My-Portfolio/static/js/787.128fc6e9.chunk.js",
-    "static/media/willow.jpg": "/My-Portfolio/static/media/willow.38eee3f00cf14192f49c.jpg",
-    "static/media/cashew.jpg": "/My-Portfolio/static/media/cashew.53a0d712de98444c15b9.jpg",
-    "static/media/azure-logo.png": "/My-Portfolio/static/media/azure-logo.8ec3e4a39f3915eb494d.png",
-    "static/media/willow-and-cashew.jpg": "/My-Portfolio/static/media/willow-and-cashew.f2d25b0010cce1f38da4.jpg",
-    "static/media/europe-photo.jpg": "/My-Portfolio/static/media/europe-photo.2f68736a4b63460f59d2.jpg",
-    "static/media/Klinski-Resume.pdf": "/My-Portfolio/static/media/Klinski-Resume.3214267e699b36f7d03e.pdf",
-    "static/media/gcp-logo.png": "/My-Portfolio/static/media/gcp-logo.222a853e1ce5d3f29296.png",
-    "static/media/professional-photo.jpg": "/My-Portfolio/static/media/professional-photo.74e1760cdb892e5dbfe4.jpg",
-    "static/media/work2.jpg": "/My-Portfolio/static/media/work2.e52a0c2981a6c11ba468.jpg",
-    "static/media/work4.jpg": "/My-Portfolio/static/media/work4.aee985961b648f4df1f2.jpg",
-    "static/media/work5.jpg": "/My-Portfolio/static/media/work5.094ec4a2224db8908873.jpg",
-    "static/media/work1.jpg": "/My-Portfolio/static/media/work1.321b4ae3bf404acdfdc6.jpg",
-    "static/media/work3.jpg": "/My-Portfolio/static/media/work3.135e9065694bc13dc31d.jpg",
-    "index.html": "/My-Portfolio/index.html",
-    "main.961074c8.css.map": "/My-Portfolio/static/css/main.961074c8.css.map",
-    "main.a8bde267.js.map": "/My-Portfolio/static/js/main.a8bde267.js.map",
-    "787.128fc6e9.chunk.js.map": "/My-Portfolio/static/js/787.128fc6e9.chunk.js.map"
+    "main.css": "/static/css/main.c0b9c3e2.css",
+    "main.js": "/static/js/main.d45d4865.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/willow.jpg": "/static/media/willow.38eee3f00cf14192f49c.jpg",
+    "static/media/cashew.jpg": "/static/media/cashew.53a0d712de98444c15b9.jpg",
+    "static/media/azure-logo.png": "/static/media/azure-logo.8ec3e4a39f3915eb494d.png",
+    "static/media/willow-and-cashew.jpg": "/static/media/willow-and-cashew.f2d25b0010cce1f38da4.jpg",
+    "static/media/europe-photo.jpg": "/static/media/europe-photo.2f68736a4b63460f59d2.jpg",
+    "static/media/Klinski-Resume.pdf": "/static/media/Klinski-Resume.3214267e699b36f7d03e.pdf",
+    "static/media/gcp-logo.png": "/static/media/gcp-logo.222a853e1ce5d3f29296.png",
+    "static/media/professional-photo.jpg": "/static/media/professional-photo.74e1760cdb892e5dbfe4.jpg",
+    "static/media/work2.jpg": "/static/media/work2.e52a0c2981a6c11ba468.jpg",
+    "static/media/work4.jpg": "/static/media/work4.aee985961b648f4df1f2.jpg",
+    "static/media/work5.jpg": "/static/media/work5.094ec4a2224db8908873.jpg",
+    "static/media/work1.jpg": "/static/media/work1.321b4ae3bf404acdfdc6.jpg",
+    "static/media/work3.jpg": "/static/media/work3.135e9065694bc13dc31d.jpg",
+    "index.html": "/index.html",
+    "main.c0b9c3e2.css.map": "/static/css/main.c0b9c3e2.css.map",
+    "main.d45d4865.js.map": "/static/js/main.d45d4865.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.961074c8.css",
-    "static/js/main.a8bde267.js"
+    "static/css/main.c0b9c3e2.css",
+    "static/js/main.d45d4865.js"
   ]
 }
