@@ -3,12 +3,6 @@ import GCPLogo from "../../assets/gcp-logo.png"
 
 export const Data = [
     {
-        id: 1,
-        image: GCPLogo,
-        title: "GCP Certified Cloud Architect",
-        description: "A thorough understanding of cloud architecture and Google Cloud.",
-    },
-    {
         id: 2,
         image: AzureLogo,
         title: "Azure Solutions Architect Expert",
